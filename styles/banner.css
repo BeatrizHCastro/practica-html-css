@@ -1,0 +1,30 @@
+.banner {
+    height: 75vh; /* 75% de la altura de la pantalla */
+    background-color: var(--main-brand-color);
+
+    position: relative;
+
+    .image {
+        background-image: url(../assets/wp8674359-gojo-sensei-wallpapers\ copia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.6;
+    }
+
+    .content {
+        text-align: center;
+        color: var(--bg-color);
+    }
+
+    p.bold {
+        font-weight: 700;
+    }
+
+}
