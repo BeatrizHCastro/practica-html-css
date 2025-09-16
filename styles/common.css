@@ -9,6 +9,9 @@
   font-size: 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 
 .main-bg {
@@ -20,4 +23,8 @@
 
     margin-bottom: 1.25em;
 
+}
+
+a.hidden {
+  display: none;
 }

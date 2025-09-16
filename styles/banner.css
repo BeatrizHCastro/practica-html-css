@@ -1,6 +1,9 @@
 .banner {
     height: 75vh; /* 75% de la altura de la pantalla */
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .image {
         background-image: url(../assets/wp8674359-gojo-sensei-wallpapers\ copia.jpg);
