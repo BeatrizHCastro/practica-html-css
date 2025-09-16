@@ -1,11 +1,11 @@
 .header {
-    background-color: var(--main-brand-color-light);
+    background-color: #081318;
     position: sticky;
     top: 0;
     z-index: 99;
     img {
         width: 100%;
-        max-width: 250px;
+        max-width: 120px;
     }
     .nav {
         ul.list {
@@ -14,13 +14,4 @@
             padding: 0;
         }
     }
-}
-
-.btn {
-    color: var(--secondary-brand-color);
-    background-color: var(--main-brand-color);
-    padding: 0.7em;
-    display:inline-block;
-    border-radius: 5px; 
-
 }
