@@ -1,7 +1,5 @@
 .banner {
     height: 75vh; /* 75% de la altura de la pantalla */
-    background-color: var(--main-brand-color);
-
     position: relative;
 
     .image {
@@ -15,12 +13,14 @@
         bottom: 0;
         right: 0;
         left: 0;
-        opacity: 0.6;
+        opacity: 0.5;
     }
 
     .content {
         text-align: center;
-        color: var(--bg-color);
+        color: var(--main-text-color);
+        z-index: 1;
+        position: relative;
     }
 
     p.bold {
