@@ -6,11 +6,10 @@
     align-items: center;
 
     .image {
-        background-image: url(../assets/wp8674359-gojo-sensei-wallpapers\ copia.jpg);
+        background-image: url(/assets/banner-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom right;
-        
+        background-position: center;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -31,4 +30,12 @@
         font-weight: 700;
     }
 
+}
+
+
+@media screen and (width > 768px) {
+    .banner .image {
+        background-image: url(/assets/banner-desktop.jpg);
+        background-position: bottom right;
+    }
 }
