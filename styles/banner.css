@@ -1,5 +1,6 @@
 .banner {
-    height: 75vh; /* 75% de la altura de la pantalla */
+    background-color: var(--skill-shadow-color);
+    height: 50vh; /* 75% de la altura de la pantalla */
     position: relative;
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        opacity: 0.3;
+        opacity: 0.4;
     }
 
     .content {
