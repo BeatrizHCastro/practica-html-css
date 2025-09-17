@@ -24,6 +24,7 @@
         color: var(--main-text-color);
         z-index: 1;
         position: relative;
+        padding: 1em;
     }
 
     p.bold {
