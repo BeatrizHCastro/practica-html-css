@@ -1,12 +1,31 @@
+
 .footer {
     background-color:var(--main-brand-color);
-    color: var(--secondary-brand-color);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    padding: 2em 0;
-
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-    
+    .nav_footer {
+        .list_footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+            gap: 20px;           
+            list-style: none;       
+            margin: 0;
+            padding: 0;
+        }
+        
+        .item_footer {
+            /*
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            */
+            img {
+                width: 1.5rem;
+            }
+        }   
+    }
 }
-

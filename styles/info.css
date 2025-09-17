@@ -2,20 +2,32 @@
 .info {
     background-color: var(--main-text-color);
     color: var(--bg-color);
-}
-
-
-.info_container { 
-    width: 100%;
-    margin: 0 auto;
-    max-width: var(--max-content-width);
-    padding: 1em 1em 2em 1em;
-
+    .info_container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: var(--max-content-width);
+        padding: 1em;
+    }
     .assets {
         display: flex;
         justify-content: center;
+        position: relative;
     }
     video {
-        width: 100%;     
+        width: 100%;
+        padding: 1em;  
     }
 }
+
+
+@media screen and (width > 768px) {
+    .info {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    .assets {
+        margin: 0 auto;
+    }
+    }
