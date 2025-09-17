@@ -11,9 +11,9 @@
     .assets {
         display: flex;
         justify-content: center;
-        position: relative;
+        position: relative; 
     }
-    video {
+        video {
         width: 100%;
         padding: 1em;  
     }
@@ -31,3 +31,17 @@
         margin: 0 auto;
     }
     }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+video.fadein {
+    opacity: 0;
+    animation: fadein 2s ease-in forwards;
+}
