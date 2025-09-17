@@ -5,6 +5,15 @@
   --secondary-brand-color: #2C1E4A; /* Púrpura oscuro - bloques secundarios */
   --main-text-color: #EDEDED;       /* Blanco plateado - Texto principal */
   --border-color: #7D8CA3;          /* Gris azulado para bordes */
+
+    /* Extras para la sección de skills */
+  --skill-border-color: rgba(237,237,237,0.9); /* Borde de barra */
+  --skill-track-color: rgba(237,237,237,0.08); /* Fondo pista */
+  --skill-shadow-color: rgba(0,0,0,0.15);      /* Sombra interior */
+
+
+
+
   --main-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 
