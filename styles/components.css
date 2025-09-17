@@ -2,8 +2,18 @@
     color: var(--secondary-brand-color);
     background-color: var(--main-brand-color);
     padding: 0.7em;
-    display:inline-block;
+    display: inline-block;
     border-radius: 5px;
     text-decoration: none;
+    /*
+    &:hover {
+        background-color: var(--main-brand-color-light);
+    }
+        */
 }
 
+@media screen and (hover: hover) {
+  .btn:hover {
+    background-color: var(--main-brand-color-light);
+  }
+}
