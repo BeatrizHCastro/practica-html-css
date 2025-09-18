@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satoru Gojo</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/common.css"> 
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/signin.css">         
+
+
+</head>
+<body class="main-bg">
+
+    <header class="header">
+        <img src="/assets/satoru-goyo-logo.png" alt="Satoru Goyo profile ">
+        <nav class="nav">
+            <ul class="list">
+                <li class="item">
+                    <a class="btn hidden" href="projects.html">Proyectos</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="#skills">Skills</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="signin.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="sr-only">Contacto Satoru Goyo</h1>
+
+        <a href="index.html">Volver</a>
+        <!-- PONER BOTÓN PARA VOLVER A LA HOME! -->   
+
+        <form method="post">
+            <!-- EJEMPLO CON EMAIL Y REQUERIDO required QUE HAY QUE AÑADIR OTROS LABELS!!!
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" required>
+            </div>
+            --> 
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="">Apellidos</label>
+                <input type="text" id="surname" name="surname">
+            </div>
+            <div>
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" autocomplete="off">
+            </div>
+
+            <fieldset>
+                <legend>¿Cómo me conociste?</legend>
+                <label for="university">Universidad</label>
+                <input type="radio" name="meet" id="university" value="universidad">
+                <label for="keepcoding">Keepcoding kick-off</label>
+                <input type="radio" name="meet" id="keepcoding" value="keepcoding">
+                <label for="">school</label>
+                <input type="radio" name="meet" id="school" value="colegio">
+                <label for="github">En Github</label>
+                <input type="radio" name="meet" id="github" value="github">
+            </fieldset>
+            
+            <input type="submit" value="Enviar">
+            <button type="reset">Reset</button>
+
+
+        </form>
+
+
+<!--
+●	Formulario de contacto con estos inputs. Todos ellos tienen que tener tanto los tipos correctos como la validación html de cada input.
+○	Nombre - (campo requerido)
+○	Apellidos - (campo requerido)
+○	Teléfono - (campo requerido)
+○	Unos radio input para responder a la pregunta "¿cómo me conociste?" -
+(requerido)
+Universidad,
+■	Keepcoding kick-off, 
+■	Colegio
+■	En Github
+○	Tag de github (Usar regexp “^@[^\s]+” para la validación - @username)
+○	Mensaje con más información del usuario (Textarea max 180 characters) -(campo requerido)
+○	Acceso a la newsletter (Checkbox)
+○	Botón de guardado
+○	Botón de reset
+-->   
+        <section class="banner">
+            <div class="image"></div>
+            <div class="content">
+                <h2>¿Quieres hablar conmigo? Tranquilo, no muerdo… salvo que seas una maldición.</h2>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="">
+                <h2>XXXXXX</h2>
+                <p>xxxxx</p>
+            </div>
+            <div class="x">
+                
+            </div>
+        </section>
+        
+        <section>
+            <!-- grid -->   
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <nav class="nav_footer">
+            <ul class="list_footer">
+                <li class="item_footer">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="/assets/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li class="item_footer">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="/assets/youtube.png" alt="YouTube">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>    
+
+</body>
+</html>

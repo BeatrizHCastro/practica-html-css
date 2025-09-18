@@ -36,7 +36,7 @@
 
 @media screen and (width > 768px) {
     .banner .image {
-        background-image: url(/assets/banner-desktop.jpg);
+        background-image: url(/assets/banner-desktop-1.jpg);
         background-position: bottom right;
     }
 }

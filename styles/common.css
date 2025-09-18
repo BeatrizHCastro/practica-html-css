@@ -11,12 +11,8 @@
   --skill-track-color: rgba(237,237,237,0.08); /* Fondo pista */
   --skill-shadow-color: rgba(0,0,0,0.15);      /* Sombra interior */
 
-
-
-
   --main-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-
   --max-content-width: 768px;
 }
 
@@ -24,17 +20,12 @@
   box-sizing: border-box;
 }
 
-
 .main-bg {
     background-color: var(--bg-color);
     color: var(--main-text-color);
-
     font-size: 1rem;
     font-family: var(--main-font-family);
-
     margin-bottom: 1.25em;
-
-
 }
 
 a.hidden {
@@ -45,14 +36,25 @@ a.hidden {
   a.hidden {
     display: block;
   }
-  
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
   height: 1px;
-  margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.divider {
+  background-color: var(--main-text-color);
+  height: 5vh;
+  width: 100%;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }

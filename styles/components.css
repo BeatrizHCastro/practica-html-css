@@ -5,15 +5,18 @@
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
-    /*
     &:hover {
         background-color: var(--main-brand-color-light);
+        color: var(--main-text-color);
     }
-        */
+        
 }
-
+  
+/*
 @media screen and (hover: hover) {
   .btn:hover {
     background-color: var(--main-brand-color-light);
+    color: var(--main-text-color);
   }
 }
+*/
