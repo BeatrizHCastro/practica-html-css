@@ -36,9 +36,16 @@
     <main>
         <h1 class="sr-only">Contacto Satoru Goyo</h1>
 
-        <a href="index.html">Volver</a>
-        <!-- PONER BOTÓN PARA VOLVER A LA HOME! -->   
-
+        <section class="banner">
+            <div class="image"></div>
+            <div class="content">
+                <h2>¿Quieres hablar conmigo?</h2>
+                <p class="bold">Tranquilo, no muerdo… salvo que seas una maldición.</p>
+            </div>
+        </section>       
+        <section class="divider">
+            <h2>¿Quieres hablar conmigo? Tranquilo, no muerdo… salvo que seas una maldición.</h2>
+        </section>
         <form method="post">
             <!-- EJEMPLO CON EMAIL Y REQUERIDO required QUE HAY QUE AÑADIR OTROS LABELS!!!
             <div>
@@ -48,74 +55,61 @@
             --> 
             <div>
                 <label for="name">Nombre</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" autocomplete="given-name" required>
             </div>
             <div>
                 <label for="">Apellidos</label>
-                <input type="text" id="surname" name="surname">
+                <input type="text" id="surname" name="surname" placeholder="Escribe tus apellidos" autocomplete="family-name" required>
             </div>
             <div>
                 <label for="phone">Teléfono</label>
-                <input type="tel" id="phone" name="phone" autocomplete="off">
+                <input type="tel" id="phone" name="phone" placeholder="Ej: 612345678" autocomplete="tel"autocomplete="off" required>
             </div>
 
             <fieldset>
-                <legend>¿Cómo me conociste?</legend>
+                <legend>¿Cómo me conociste (sin usar técnicas prohibidas)?</legend>
                 <label for="university">Universidad</label>
-                <input type="radio" name="meet" id="university" value="universidad">
+                <input type="radio" name="meet" id="university" value="universidad" required>
                 <label for="keepcoding">Keepcoding kick-off</label>
                 <input type="radio" name="meet" id="keepcoding" value="keepcoding">
-                <label for="">school</label>
+                <label for="school">Colegio</label>
                 <input type="radio" name="meet" id="school" value="colegio">
                 <label for="github">En Github</label>
                 <input type="radio" name="meet" id="github" value="github">
+                <label for="sorcerer">Un amigo hechicero</label>
+                <input type="radio" name="meet" id="sorcerer" value="hechicero">
             </fieldset>
-            
-            <input type="submit" value="Enviar">
+
+            <div>
+                <label for="info">Más información</label>
+                <textarea name="info" id="info" placeholder="Pregúntame lo que quieras. Dile tus dudas a Gojō, no seas tímid@..." required></textarea>
+            </div>
+
+            <div>
+                <label for="yes">Quiero recibir la newslettler.</label>
+                <input type="checkbox" name="newsletter" id="yes">
+
+            </div>
+ 
             <button type="reset">Reset</button>
+            <input type="submit" value="Enviar">
 
 
         </form>
 
 
 <!--
-●	Formulario de contacto con estos inputs. Todos ellos tienen que tener tanto los tipos correctos como la validación html de cada input.
-○	Nombre - (campo requerido)
-○	Apellidos - (campo requerido)
-○	Teléfono - (campo requerido)
-○	Unos radio input para responder a la pregunta "¿cómo me conociste?" -
-(requerido)
-Universidad,
-■	Keepcoding kick-off, 
-■	Colegio
-■	En Github
+
 ○	Tag de github (Usar regexp “^@[^\s]+” para la validación - @username)
-○	Mensaje con más información del usuario (Textarea max 180 characters) -(campo requerido)
-○	Acceso a la newsletter (Checkbox)
-○	Botón de guardado
-○	Botón de reset
--->   
-        <section class="banner">
-            <div class="image"></div>
-            <div class="content">
-                <h2>¿Quieres hablar conmigo? Tranquilo, no muerdo… salvo que seas una maldición.</h2>
+
+-->  
+
+        <section class="divider">
+            <div class="back">
+                <a class="btn_secondary" href="index.html">Ir a la página principal</a>
             </div>
         </section>
 
-        <section class="">
-            <div class="">
-                <h2>XXXXXX</h2>
-                <p>xxxxx</p>
-            </div>
-            <div class="x">
-                
-            </div>
-        </section>
-        
-        <section>
-            <!-- grid -->   
-        </section>
-    
     </main>
 
     <footer class="footer">
