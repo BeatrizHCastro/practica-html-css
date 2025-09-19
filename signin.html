@@ -42,17 +42,13 @@
                 <h2>¿Quieres hablar conmigo?</h2>
                 <p class="bold">Tranquilo, no muerdo… salvo que seas una maldición.</p>
             </div>
-        </section>       
+        </section>
+
         <section class="divider">
             <h2>¿Quieres hablar conmigo? Tranquilo, no muerdo… salvo que seas una maldición.</h2>
         </section>
+
         <form method="post">
-            <!-- EJEMPLO CON EMAIL Y REQUERIDO required QUE HAY QUE AÑADIR OTROS LABELS!!!
-            <div>
-                <label for="mail">Email</label>
-                <input type="email" id="mail" name="mail" required>
-            </div>
-            --> 
             <div>
                 <label for="name">Nombre</label>
                 <input type="text" id="name" name="name" placeholder="Escribe tu nombre" autocomplete="given-name" required>
@@ -63,13 +59,19 @@
             </div>
             <div>
                 <label for="phone">Teléfono</label>
-                <input type="tel" id="phone" name="phone" placeholder="Ej: 612345678" autocomplete="tel"autocomplete="off" required>
+                <input type="tel" id="phone" name="phone" placeholder="Escribe tu teléfono" autocomplete="off" required>
             </div>
+        
+            <div>
+                <label for="github">Github username</label>
+                <input type="text" id="github" name="github" placeholder="Con formato @username" pattern="^@[^\s]+" required>
+            </div>
+
 
             <fieldset>
                 <legend>¿Cómo me conociste (sin usar técnicas prohibidas)?</legend>
                 <label for="university">Universidad</label>
-                <input type="radio" name="meet" id="university" value="universidad" required>
+                <input type="radio" name="meet" id="university" value="universidad" checked>
                 <label for="keepcoding">Keepcoding kick-off</label>
                 <input type="radio" name="meet" id="keepcoding" value="keepcoding">
                 <label for="school">Colegio</label>
@@ -82,12 +84,12 @@
 
             <div>
                 <label for="info">Más información</label>
-                <textarea name="info" id="info" placeholder="Pregúntame lo que quieras. Dile tus dudas a Gojō, no seas tímid@..." required></textarea>
+                <textarea name="info" id="info" placeholder="Pregúntame lo que quieras, no seas tímid@..." maxlength="180" required></textarea>
             </div>
 
             <div>
-                <label for="yes">Quiero recibir la newslettler.</label>
-                <input type="checkbox" name="newsletter" id="yes">
+                <label for="yes">Quiero recibir la newslettler</label>
+                <input type="checkbox" name="newsletter" id="yes" required>
 
             </div>
  
@@ -96,13 +98,7 @@
 
 
         </form>
-
-
-<!--
-
-○	Tag de github (Usar regexp “^@[^\s]+” para la validación - @username)
-
--->  
+ 
 
         <section class="divider">
             <div class="back">

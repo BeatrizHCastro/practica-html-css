@@ -50,7 +50,7 @@ a.hidden {
 
 .divider {
   background-color: var(--main-text-color);
-  height: 5vh;
+  height: 3vh;
   width: 100%;
 }
 
