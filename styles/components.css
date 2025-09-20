@@ -51,6 +51,10 @@ form {
 
 
 @media screen and (hover: hover) {
+  .btn {
+    cursor: pointer;
+  }
+  
   .btn:hover {
     background-color: var(--main-brand-color-light);
     color: var(--main-text-color);
