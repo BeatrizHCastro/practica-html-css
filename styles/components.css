@@ -53,6 +53,7 @@ form {
   .btn:hover {
     background-color: var(--main-brand-color-light);
     color: var(--main-text-color);
+    border-color: var(--main-brand-color-light);
   }
 
   .btn.secondary:hover {

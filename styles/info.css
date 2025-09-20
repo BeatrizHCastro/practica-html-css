@@ -6,7 +6,7 @@
         width: 90%;
         margin: 0 auto;
         max-width: var(--max-content-width);
-        padding: 1em;
+        padding: 1em 0;
     }
     .assets {
         display: flex;
@@ -26,6 +26,7 @@
         flex-direction: row-reverse;
         align-items: center;
         gap: 20px;
+        padding: 2em 2em;
     }
     .assets {
         margin: 0 auto;
