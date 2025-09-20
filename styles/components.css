@@ -31,11 +31,21 @@ form {
   }
 
   fieldset, input[type="radio"] {
-    margin-bottom: 0.7rem;
-
+    margin-bottom: 0.5rem;
   }
-}
 
+  .radio-meet {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="checkbox"] {
+    margin-bottom: 2rem;
+  }
+
+}
 
 
 
