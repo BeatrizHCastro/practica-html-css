@@ -1,0 +1,14 @@
+.container {
+    background-image: url(../assets/wp11845578.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: rgba(10, 26, 36, 0.7);
+    border-radius: 5px;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}

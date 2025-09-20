@@ -6,9 +6,9 @@
     <title>Satoru Gojo</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/common.css"> 
+    <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/signin.css">         
 
@@ -44,60 +44,65 @@
             </div>
         </section>
 
-        <section class="divider">
-            <h2>¿Quieres hablar conmigo? Tranquilo, no muerdo… salvo que seas una maldición.</h2>
+        <section class="divider"></section>
+
+        <section class="container">
+            <div class="card">
+
+                <form method="post">
+                <div class="form_input">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Escribe tu nombre" autocomplete="given-name" required>
+                </div>
+                <div class="form_input">
+                    <label for="">Apellidos</label>
+                    <input type="text" id="surname" name="surname" placeholder="Escribe tus apellidos" autocomplete="family-name" required>
+                </div>
+                <div class="form_input">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Tu mejor teléfono" autocomplete="off" required>
+                </div>
+            
+                <div class="form_input">
+                    <label for="github">Github username</label>
+                    <input type="text" id="github" name="github" placeholder="Con formato @username" pattern="^@[^\s]+" required>
+                </div>
+
+
+                <fieldset>
+                    <legend>¿Cómo me conociste (sin usar técnicas prohibidas)?</legend>
+                    <label for="university">Universidad</label>
+                    <input type="radio" name="meet" id="university" value="universidad" checked>
+                    <label for="keepcoding">Keepcoding kick-off</label>
+                    <input type="radio" name="meet" id="keepcoding" value="keepcoding">
+                    <label for="school">Colegio</label>
+                    <input type="radio" name="meet" id="school" value="colegio">
+                    <label for="github">En Github</label>
+                    <input type="radio" name="meet" id="github" value="github">
+                    <label for="sorcerer">Un amigo hechicero</label>
+                    <input type="radio" name="meet" id="sorcerer" value="hechicero">
+                </fieldset>
+
+                <div class="form_input">
+                    <label for="info">Más información</label>
+                    <textarea name="info" id="info" placeholder="Pregúntame lo que quieras, no seas tímid@..." maxlength="180" required></textarea>
+                </div>
+
+                <div>
+                    <label for="yes">Quiero recibir la newsletter de Goyo</label>
+                    <input type="checkbox" name="newsletter" id="yes" required>
+                </div>
+
+                <div> 
+                <button class="btn" type="reset">Reset</button>
+                <input class="btn" type="submit" value="Enviar">
+                </div>
+
+                </form>
+            </div>    
         </section>
-
-        <form method="post">
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" autocomplete="given-name" required>
-            </div>
-            <div>
-                <label for="">Apellidos</label>
-                <input type="text" id="surname" name="surname" placeholder="Escribe tus apellidos" autocomplete="family-name" required>
-            </div>
-            <div>
-                <label for="phone">Teléfono</label>
-                <input type="tel" id="phone" name="phone" placeholder="Escribe tu teléfono" autocomplete="off" required>
-            </div>
         
-            <div>
-                <label for="github">Github username</label>
-                <input type="text" id="github" name="github" placeholder="Con formato @username" pattern="^@[^\s]+" required>
-            </div>
 
-
-            <fieldset>
-                <legend>¿Cómo me conociste (sin usar técnicas prohibidas)?</legend>
-                <label for="university">Universidad</label>
-                <input type="radio" name="meet" id="university" value="universidad" checked>
-                <label for="keepcoding">Keepcoding kick-off</label>
-                <input type="radio" name="meet" id="keepcoding" value="keepcoding">
-                <label for="school">Colegio</label>
-                <input type="radio" name="meet" id="school" value="colegio">
-                <label for="github">En Github</label>
-                <input type="radio" name="meet" id="github" value="github">
-                <label for="sorcerer">Un amigo hechicero</label>
-                <input type="radio" name="meet" id="sorcerer" value="hechicero">
-            </fieldset>
-
-            <div>
-                <label for="info">Más información</label>
-                <textarea name="info" id="info" placeholder="Pregúntame lo que quieras, no seas tímid@..." maxlength="180" required></textarea>
-            </div>
-
-            <div>
-                <label for="yes">Quiero recibir la newslettler</label>
-                <input type="checkbox" name="newsletter" id="yes" required>
-
-            </div>
- 
-            <button type="reset">Reset</button>
-            <input type="submit" value="Enviar">
-
-
-        </form>
  
 
         <section class="divider">
