@@ -5,54 +5,49 @@
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
-    &:hover {
-        background-color: var(--main-brand-color-light);
-        color: var(--main-text-color);
-    }
-        
+    border: 1px solid var(--main-brand-color);
+    &.secondary {
+      background-color: transparent;
+      border: 1px solid var(--main-text-color);
+      color: var(--main-text-color);
+    }       
 }
 
-.btn_secondary {
-    color: var(--main-brand-color);
-    background-color: var(--secondary-brand-color);
-    padding: 0.7em;
-    display: inline-block;
-    border-radius: 5px;
-    text-decoration: none;
-    &:hover {
-        background-color: var(--main-brand-color-light);
-        color: var(--main-text-color);
+form {
+  .form_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    label {
+      margin-bottom: 0.5rem;
     }
-}
-
-.form_input {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-  label {
-    margin-bottom: 0.5rem;
-  }
-  input, textarea {
-    padding: 1rem;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--skill-track-color);
-    color: var(--main-brand-color);
+    input, textarea {
+      padding: 1rem;
+      border-radius: 5px;
+      border: none;
+      background-color: var(--skill-track-color);
+      color: var(--main-brand-color);
+    }
   }
 
+  fieldset, input[type="radio"] {
+    margin-bottom: 0.7rem;
+
+  }
 }
 
 
 
 
-
-
-
-/*
 @media screen and (hover: hover) {
   .btn:hover {
     background-color: var(--main-brand-color-light);
     color: var(--main-text-color);
   }
+
+  .btn.secondary:hover {
+    background-color: var(--main-brand-color-light); 
+    color: var(--main-text-color);
+    border-color: var(--main-brand-color-light);
+  }
 }
-*/
