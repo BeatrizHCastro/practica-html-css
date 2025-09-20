@@ -6,6 +6,7 @@
     border-radius: 5px;
     text-decoration: none;
     border: 1px solid var(--main-brand-color);
+    transition: background-color 0.3s linear;
     &.secondary {
       background-color: transparent;
       border: 1px solid var(--main-text-color);
