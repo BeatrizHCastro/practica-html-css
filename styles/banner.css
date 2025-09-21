@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     .image {
-        background-image: url(/assets/banner-mobile.jpg);
+        background-image: url(assets/banner-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -32,7 +32,7 @@
 
 @media screen and (width > 768px) {
     .banner .image {
-        background-image: url(/assets/banner-desktop-1.jpg);
+        background-image: url(assets/banner-desktop-1.jpg);
         background-position: bottom right;
     }
 }
