@@ -1,6 +1,6 @@
 .info {
-    background-color: var(--main-text-color);
-    color: var(--bg-color);
+    background-color: var(--neutral-color);
+    color: var(--secondary-color);
     .info_container {
         width: 90%;
         margin: 0 auto;

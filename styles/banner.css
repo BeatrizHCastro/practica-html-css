@@ -1,5 +1,5 @@
 .banner {
-    background-color: var(--skill-shadow-color);
+    background-color: var(--neutral-dark-color);
     height: 50vh;
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@
     }
     .content {
         text-align: center;
-        color: var(--main-text-color);
+        color: var(--neutral-color);
         z-index: 1;
         position: relative;
         padding: 1em;

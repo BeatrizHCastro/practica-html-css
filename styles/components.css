@@ -1,16 +1,16 @@
 .btn {
-    color: var(--secondary-brand-color);
-    background-color: var(--main-brand-color);
+    color: var(--secondary-color);
+    background-color: var(--main-color);
     padding: 0.7em;
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
-    border: 1px solid var(--main-brand-color);
+    border: 1px solid var(--main-color);
     transition: background-color 0.3s linear;
     &.secondary {
       background-color: transparent;
-      border: 1px solid var(--main-text-color);
-      color: var(--main-text-color);
+      border: 1px solid var(--neutral-color);
+      color: var(--neutral-color);
     }       
 }
 
@@ -26,8 +26,8 @@ form {
       padding: 1rem;
       border-radius: 5px;
       border: none;
-      background-color: var(--skill-track-color);
-      color: var(--main-brand-color);
+      background-color: var(--neutral-light-color);
+      color: var(--main-color);
     }
   }
   fieldset, input[type="radio"] {
@@ -49,13 +49,13 @@ form {
     cursor: pointer;
   }
   .btn:hover {
-    background-color: var(--main-brand-color-light);
-    color: var(--main-text-color);
-    border-color: var(--main-brand-color-light);
+    background-color: var(--main-light-color);
+    color: var(--neutral-color);
+    border-color: var(--main-light-color);
   }
   .btn.secondary:hover {
-    background-color: var(--main-brand-color-light); 
-    color: var(--main-text-color);
-    border-color: var(--main-brand-color-light);
+    background-color: var(--main-light-color); 
+    color: var(--neutral-color);
+    border-color: var(--main-light-color);
   }
 }
