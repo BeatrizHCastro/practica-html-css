@@ -215,11 +215,12 @@ Build a **responsive portfolio** without JavaScript or external frameworks, appl
 
 ## Screenshots
 
-<!-- ![Home](SCREENSHOT LINK) -->
-
-<!-- ![Projects](SCREENSHOT LINK) -->
-
-<!-- ![Signin](SCREENSHOT LINK) -->
+* [Home - mobile ](layout/mobile_home.png)
+* [Home - desktop ](layout/desktop_home.png)
+* [Projects - mobile ](layout/mobile_projects.png)
+* [Projects - desktop ](layout/desktop_projects.png)
+* [Contact - mobile ](layout/mobile_signin.png)
+* [Contact - desktop ](layout/desktop_signin.html.png)
 
 ## Requirements
 
