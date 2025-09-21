@@ -78,11 +78,13 @@ Construir un **portfolio responsive** sin JavaScript ni frameworks externos, apl
 
 ## Capturas
 
-<!-- ![Home](ENLACE PANTALLAZO) -->
+* [Home - mobile ](layout/mobile_home.png)
+* [Home - desktop ](layout/desktop_home.png)
+* [Projects - mobile ](layout/mobile_projects.png)
+* [Projects - desktop ](layout/desktop_projects.png)
+* [Contact - mobile ](layout/mobile_signin.png)
+* [Contact - desktop ](layout/desktop_signin.html.png)
 
-<!-- ![Projects](ENLACE PANTALLAZO) -->
-
-<!-- ![Signin](ENLACE PANTALLAZO) -->
 
 ## Requisitos
 
