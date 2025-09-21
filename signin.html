@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satoru Gojo</title>
+    <title>Satoru Gojo Contacto</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/common.css"> 
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/banner.css">
-    <link rel="stylesheet" href="styles/signin.css">         
-
-
+    <link rel="stylesheet" href="styles/signin.css">
 </head>
-<body class="main-bg">
 
+<body class="main-bg">
     <header class="header">
-        <img src="/assets/satoru-goyo-logo.png" alt="Satoru Goyo profile ">
+        <a href="index.html">
+            <img src="/assets/satoru-gojo-logo.png" alt="Satoru Gojo logo">
+        </a>
         <nav class="nav">
             <ul class="list">
                 <li class="item">
@@ -32,8 +32,7 @@
             </ul>
         </nav>
     </header>
-
-    <h1 class="sr-only">Contacto Satoru Goyo</h1>
+    <h1 class="sr-only">Contacto Satoru Gojo</h1>
     <section class="banner">
         <div class="image"></div>
         <div class="content">
@@ -42,19 +41,16 @@
         </div>
     </section>
     <section class="divider"></section>
-
-    <main>
-        
+    <main>        
         <section class="container">
             <div class="card">
-
                 <form method="post" novalidate>
                 <div class="form_input">
                     <label for="name">Nombre</label>
                     <input type="text" id="name" name="name" placeholder="Escribe tu nombre" autocomplete="given-name" required>
                 </div>
                 <div class="form_input">
-                    <label for="">Apellidos</label>
+                    <label for="surname">Apellidos</label>
                     <input type="text" id="surname" name="surname" placeholder="Escribe tus apellidos" autocomplete="family-name" required>
                 </div>
                 <div class="form_input">
@@ -63,14 +59,11 @@
                 </div>
             
                 <div class="form_input">
-                    <label for="github">Github username</label>
-                    <input type="text" id="github" name="github" placeholder="Con formato @username" pattern="^@[^\s]+" required>
+                    <label for="github_user">Github username</label>
+                    <input type="text" id="github_user" name="github" placeholder="Con formato @username" pattern="^@[^\s]+" required>
                 </div>
-
-
                 <fieldset>
                     <legend>¿Cómo me conociste (sin usar técnicas prohibidas)?</legend>
-
                     <div class="radio_meet">
                         <input type="radio" name="meet" id="university" value="universidad" checked>
                         <label for="university">Universidad</label>    
@@ -78,7 +71,7 @@
 
                     <div class="radio_meet">
                         <input type="radio" name="meet" id="keepcoding" value="keepcoding">
-                        <label for="keepcoding">Keepcoding kick-off</label>    
+                        <label for="keepcoding">Keepcoding kick-off</label>
                     </div>
 
                     <div class="radio_meet">
@@ -94,52 +87,40 @@
                     <div class="radio_meet">
                         <input type="radio" name="meet" id="sorcerer" value="hechicero">
                         <label for="sorcerer">Un amigo hechicero</label>
-                    </div>
-                    
+                    </div>                   
                 </fieldset>
-
                 <div class="form_input">
                     <label for="info">Más información</label>
                     <textarea name="info" id="info" placeholder="Pregúntame lo que quieras, no seas tímid@..." maxlength="180" required></textarea>
                 </div>
-
                 <div>
-                    <label for="yes">Quiero recibir la newsletter de Goyo</label>
+                    <label for="yes">Quiero recibir la newsletter de Gojo</label>
                     <input type="checkbox" name="newsletter" id="yes" required>
                 </div>
-
                 <div> 
                 <button class="btn secondary" type="reset">Reset</button>
                 <input class="btn" type="submit" value="Enviar">
                 </div>
-
                 </form>
-            </div>    
+            </div>
         </section>
-        
-
- 
-
         <section class="divider"></section>
-
     </main>
-
     <footer class="footer">
         <nav class="nav_footer">
             <ul class="list_footer">
                 <li class="item_footer">
                     <a href="https://www.instagram.com" target="_blank">
-                        <img src="/assets/instagram.png" alt="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--bg-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
                     </a>
                 </li>
                 <li class="item_footer">
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img src="/assets/youtube.png" alt="YouTube">
+                    <a href="https://www.twitch.tv" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--bg-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitch-icon lucide-twitch"><path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"/></svg>
                     </a>
                 </li>
             </ul>
         </nav>
-    </footer>    
-
+    </footer>
 </body>
 </html>

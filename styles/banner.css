@@ -1,11 +1,10 @@
 .banner {
     background-color: var(--skill-shadow-color);
-    height: 50vh; /* 75% altura pantalla */
+    height: 50vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-
     .image {
         background-image: url(/assets/banner-mobile.jpg);
         background-repeat: no-repeat;
@@ -18,7 +17,6 @@
         left: 0;
         opacity: 0.4;
     }
-
     .content {
         text-align: center;
         color: var(--main-text-color);
@@ -26,11 +24,9 @@
         position: relative;
         padding: 1em;
     }
-
     p.bold {
         font-weight: 700;
     }
-
 }
 
 

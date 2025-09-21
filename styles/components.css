@@ -30,37 +30,29 @@ form {
       color: var(--main-brand-color);
     }
   }
-
   fieldset, input[type="radio"] {
     margin-bottom: 0.5rem;
   }
-
-  .radio-meet {
+  .radio_meet {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
   }
-
   input[type="checkbox"] {
     margin-bottom: 2rem;
   }
-
 }
-
-
 
 @media screen and (hover: hover) {
   .btn {
     cursor: pointer;
   }
-  
   .btn:hover {
     background-color: var(--main-brand-color-light);
     color: var(--main-text-color);
     border-color: var(--main-brand-color-light);
   }
-
   .btn.secondary:hover {
     background-color: var(--main-brand-color-light); 
     color: var(--main-text-color);
